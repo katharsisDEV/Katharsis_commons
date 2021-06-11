@@ -1,12 +1,8 @@
 {
   "name": "katharsis-commons",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "katharsis common lib",
-  "main": "dist/**/index.js",
-  "types": "dist/**/index.d.ts",
-  "files": [
-    "/dist"
-  ],
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "prestart": "npm install && npm run build",

@@ -15,7 +15,7 @@ export class Order {
     invoice: string;
 
 
-    constructor(client: string, state = State.CREATED, invoice?: string, estimates?: string[]) {
+    constructor(client?: string, state = State.CREATED, invoice?: string, estimates?: string[]) {
         this.state = state;
         this.client = client;
         this.estimates = estimates;
