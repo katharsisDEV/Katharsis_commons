@@ -1,0 +1,16 @@
+{
+  "name": "katharsis-commons",
+  "version": "1.0.1",
+  "description": "katharsis common lib",
+  "main": "dist/**/index.js",
+  "types": "dist/**/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm install && npm run build",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
